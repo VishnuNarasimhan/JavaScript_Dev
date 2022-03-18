@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(105, 201, 169);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgba(220, 52, 10, 0.626);
+    text-align: center;
+}
+#res{
+    background-color: rgb(221, 205, 133);
+    border-radius: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    width: 90vw;
+    margin-left: 50px;
+}
+
+
+#btn-1, #btn-2, #btn-3{
+    padding:15px 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 25%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(13, 90, 123);
+    color: aliceblue;
+}
+#btn-1:hover, #btn-2:hover, #btn-3:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
