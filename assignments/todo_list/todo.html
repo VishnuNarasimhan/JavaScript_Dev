@@ -1,13 +1,28 @@
 <html>
     <head>
         <title>Todo List</title>
+        <link rel="stylesheet" href="todo.css">
     </head>
     <body>
-        <div>
-            <input type='text' name='todo_input'>
-            <button type='submit'>Add Todo</button>
-            <div class='todos'></div>
+        <div class="container">
+            <h1>TODO List Fetched From API</h1>
+            <div class="btnContainer">
+                <div class="completed">
+                    <button id="btn-1">Completed</button>
+                </div>
+                <div class="fullList">
+                    <button id="btn-2">FullList</button>  
+                </div>
+                <div class="pending">
+                    <button id="btn-3">Pending</button>
+                </div>
+                
+            </div>
+            <div class="taskList">
+                <div id = "res"></div>
+
+            </div>
         </div>
+        <script src="script.js"></script>
     </body>
-    <script src='./script.js'></script>
 </html>
